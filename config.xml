@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.viewcomunicacao.digital"
+        versionCode = "10" 
+        version     = "1.0.2" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Teste PhoneGap</name>
+
+    <description>
+        Teste básico usando html5 + phonegap
+    </description>
+
+    <author href="http://viewcomunicacao.com.br" email="view@viewcomunicacao.com.br">
+        VIEW Comunicação 
+    </author>
+    
+	<gap:platform name="android" />
+	
+	<icon src="icon.png" />
+	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	
+</widget>
