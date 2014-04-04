@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Tooltip{
+	background-color:rgba(255,255,255,0.67);
+	border-radius: 0px 15px 0px 10px;
+	padding: 3px 15px 3px 15px;
+	width:auto;
+	height:auto;
+}
+.Legendas{
+	background-color: rgba(0,0,0,1.00);
+	width: 540px;
+	height: 48px;
+	left: 190px;
+	top: 0px;
+	min-width: 540px;
+	min-height: 48px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+.Box{
+	background-color: rgba(38,38,38,1.00);
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 8px;
+	border-radius: 6px;
+}
